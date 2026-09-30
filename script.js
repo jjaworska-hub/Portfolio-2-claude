@@ -29,15 +29,6 @@ const goalObserver = new IntersectionObserver(
 );
 document.querySelectorAll('.goal').forEach((g) => goalObserver.observe(g));
 
-// Broken tool icons fall back to the tool's initial
-document.querySelectorAll('.tools__grid img').forEach((img) => {
-  img.addEventListener('error', () => {
-    const li = img.parentElement;
-    li.textContent = img.alt.charAt(0);
-    li.classList.add('tile');
-  });
-});
-
 // Contact form: opens the visitor's mail client with the message prefilled
 const form = document.getElementById('contact-form');
 const CONTACT_EMAIL = 'your@email.com';
