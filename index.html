@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Joanna — UX/UI Designer</title>
+  <meta name="description" content="Joanna, UX/UI Designer specialising in designing enterprise products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" aria-label="Main">
+    <a href="#home" class="nav__item is-active">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="#projects" class="nav__item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6a1 1 0 0 1 1-1h5l2 2h9a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/></svg>
+      <span>Projects</span>
+    </a>
+    <a href="#about" class="nav__item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg>
+      <span>About me</span>
+    </a>
+    <a href="#contact" class="nav__item">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      <span>Contact</span>
+    </a>
+    <a href="https://www.linkedin.com/" class="nav__item" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="9" width="4" height="12"/><circle cx="5" cy="4.5" r="2"/><path d="M10 9h4v2c.8-1.4 2.2-2.3 4-2.3 2.6 0 4 1.7 4 4.8V21h-4v-6.7c0-1.5-.6-2.4-1.9-2.4-1.4 0-2.1 1-2.1 2.4V21h-4z"/></svg>
+      <span>LinkedIn</span>
+    </a>
+  </nav>
+
+  <main class="container">
+    <!-- Hero -->
+    <section id="home" class="card hero">
+      <h1>How can I help?</h1>
+      <p class="hero__lead">
+        Hi, I’m Joanna,
+        <span class="circled">UX/UI Designer<svg viewBox="0 0 200 60" preserveAspectRatio="none" aria-hidden="true"><path d="M12 32C8 14 70 4 120 6s78 12 72 28c-6 18-80 22-128 18S2 40 22 18"/></svg></span>
+        specialising<br />in designing enterprise products
+      </p>
+      <a href="#contact" class="btn">Let’s chat</a>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects">
+      <article class="card project">
+        <div class="project__img"></div>
+        <div class="project__body">
+          <h3>Project’s title</h3>
+          <p>Short description of the project — the problem, your role and the outcome.</p>
+        </div>
+      </article>
+      <article class="card project">
+        <div class="project__img"></div>
+        <div class="project__body">
+          <h3>Project’s title</h3>
+          <p>Short description of the project — the problem, your role and the outcome.</p>
+        </div>
+      </article>
+      <article class="card project">
+        <div class="project__img"></div>
+        <div class="project__body">
+          <h3>Project’s title</h3>
+          <p>Short description of the project — the problem, your role and the outcome.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="card photo">
+        <img src="assets/joanna.jpg" alt="Portrait of Joanna" onerror="this.remove()" />
+      </div>
+
+      <div class="card quote">
+        <blockquote>
+          <span class="quote__mark" aria-hidden="true">“</span>
+          The true essence of enterprise UX lies in understanding the intricate dance between user needs and business goals.
+        </blockquote>
+        <a href="assets/cv.pdf" class="btn btn--sm" download>
+          Download CV
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg>
+        </a>
+      </div>
+
+      <div class="card tools">
+        <h2>Tool stack</h2>
+        <ul class="tools__grid">
+          <li title="Figma"><img src="https://cdn.simpleicons.org/figma" alt="Figma" /></li>
+          <li title="Spline"><img src="https://cdn.simpleicons.org/spline" alt="Spline" /></li>
+          <li title="OBS Studio"><img src="https://cdn.simpleicons.org/obsstudio" alt="OBS Studio" /></li>
+          <li title="Slack"><img src="https://cdn.simpleicons.org/slack" alt="Slack" /></li>
+          <li title="Adobe Creative Cloud"><img src="https://cdn.simpleicons.org/adobecreativecloud" alt="Adobe Creative Cloud" /></li>
+          <li title="Swift"><img src="https://cdn.simpleicons.org/swift" alt="Swift" /></li>
+          <li title="Notion"><img src="https://cdn.simpleicons.org/notion" alt="Notion" /></li>
+          <li title="Framer"><img src="https://cdn.simpleicons.org/framer" alt="Framer" /></li>
+          <li title="Sketch"><img src="https://cdn.simpleicons.org/sketch" alt="Sketch" /></li>
+          <li title="Miro" class="tile tile--miro">M</li>
+          <li title="Adobe XD" class="tile tile--xd">Xd</li>
+          <li title="Adobe Premiere Pro" class="tile tile--pr">Pr</li>
+        </ul>
+      </div>
+
+      <a class="card linkedin" href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn profile">
+        <span class="linkedin__logo">in</span>
+        <span class="linkedin__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+      </a>
+
+      <div class="card story">
+        <h2>My story</h2>
+        <p>Write a few sentences about how you started in design, what drew you to UX, and what kind of problems you love solving.</p>
+        <p>Describe your experience with enterprise products — complex systems, many stakeholders, and users who rely on these tools every day.</p>
+        <p>Finish with what you are looking for next.</p>
+      </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section class="cv">
+      <div class="card experience">
+        <h2>Experience</h2>
+        <ul class="timeline">
+          <li>
+            <div>
+              <h3>UX Designer at Postdata</h3>
+              <span class="muted">2023 January - Now</span>
+            </div>
+            <p>Designing and co-creating an innovative system for Polish Post, used in all post offices, serving 36,000 users simultaneously. My responsibilities included working closely with system and business analysts and programmers on developing and modernising products that are 30+ years in use. Working with such established systems is an everyday challenge but it’s rewarding.</p>
+          </li>
+          <li>
+            <div>
+              <h3>Freelance UX/UI Designer</h3>
+              <span class="muted">2022 October - Now</span>
+            </div>
+            <p>Website design for various companies that want to move their activities and services to the Internet in order to acquire more customers.</p>
+          </li>
+          <li>
+            <div>
+              <h3>Mentee in Design Mentorship</h3>
+              <span class="muted">2022 October - 2023 March</span>
+            </div>
+            <p>Designing a solution for spreading knowledge about urophysiotherapy among women.</p>
+          </li>
+          <li>
+            <div>
+              <h3>UX Designer at ExploreIT</h3>
+              <span class="muted">2022 January - 2023 January</span>
+            </div>
+            <p>Creating an enterprise application, HelpingHand, for conducting online therapy, addressed to both individuals and companies that want to take care of the mental health of their employees.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card education">
+        <h2>Education</h2>
+        <ul class="edu">
+          <li><div><h3>Graphic Design</h3><span class="muted">The Polish-Japanese Academy of Information Technology</span></div><span class="year">2022 - 2023</span></li>
+          <li><div><h3>Design Mentorship completion certificate</h3><span class="muted">Mentor - Justyna Grycz</span></div><span class="year">2022 - 2023</span></li>
+          <li><div><h3>User Experience - designing applications, products and services</h3><span class="muted">University of Gdansk</span></div><span class="year">2021 - 2022</span></li>
+          <li><div><h3>Personal Data Protection</h3><span class="muted">University of Gdansk</span></div><span class="year">2020 - 2021</span></li>
+          <li><div><h3>Cambridge Certificate in Advanced English</h3><span class="muted">Cambridge University</span></div><span class="year">2020</span></li>
+          <li><div><h3>Japanese Studies</h3><span class="muted">Nicolaus Copernicus University</span></div><span class="year">2016 - 2020</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Music & Goals -->
+    <section class="extras">
+      <div class="card music">
+        <h2>Music for work focus</h2>
+        <ul class="playlist">
+          <li>
+            <a href="https://www.youtube.com/results?search_query=Chill+HipHop+Beats+For+Focus+%26+Concentration" target="_blank" rel="noopener">
+              <span class="playlist__thumb" style="--c1:#1b1464;--c2:#f7b733"></span>
+              <span class="playlist__title">Chill HipHop Beats For Focus &amp; Concentration</span>
+              <span class="playlist__play" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/results?search_query=Beautiful+Japanese+Piano+Music+Relaxing+Music" target="_blank" rel="noopener">
+              <span class="playlist__thumb" style="--c1:#f8b4d9;--c2:#8ec5fc"></span>
+              <span class="playlist__title">Beautiful Japanese Piano Music ~ Relaxing Music</span>
+              <span class="playlist__play" aria-hidden="true"></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/results?search_query=Baldur%27s+Gate+3+Ambience+%26+Music" target="_blank" rel="noopener">
+              <span class="playlist__thumb" style="--c1:#1a1a1a;--c2:#b08d57"></span>
+              <span class="playlist__title">Baldur’s Gate 3 - Ambience &amp; Music</span>
+              <span class="playlist__play" aria-hidden="true"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="goals">
+        <h2>Current goals!</h2>
+        <div class="goal" style="--progress:18%">
+          <h3>Learning AR/VR Design</h3>
+          <div class="goal__bar"><span></span></div>
+          <div class="goal__labels"><span class="goal__now">Learning the basics...</span><span>Creating UI Design for VR app</span></div>
+        </div>
+        <div class="goal" style="--progress:51%">
+          <h3>Finishing Interaction Design course</h3>
+          <div class="goal__bar"><span></span></div>
+          <div class="goal__labels"><span class="goal__now">In the middle of a course...</span><span>Course certificate</span></div>
+        </div>
+        <div class="goal" style="--progress:33%">
+          <h3>Creating a Design System</h3>
+          <div class="goal__bar"><span></span></div>
+          <div class="goal__labels"><span class="goal__now">Making components...</span><span>Creating my own Design System</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <h2>Let’s work together!</h2>
+      <form class="form" id="contact-form">
+        <label class="sr-only" for="name">Your name</label>
+        <input id="name" name="name" type="text" placeholder="Your Name" required />
+        <label class="sr-only" for="email">Your email</label>
+        <input id="email" name="email" type="email" placeholder="Your Mail" required />
+        <label class="sr-only" for="message">Message</label>
+        <textarea id="message" name="message" rows="7" placeholder="Write your message" required></textarea>
+        <button type="submit" class="btn">Submit</button>
+        <p class="form__status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">Thanks for stopping by!</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
